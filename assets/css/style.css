@@ -1,6 +1,7 @@
 :root {
   --background-color: #ccc;
   --text-color: #333;
+  --mid-color: #888;
 }
 
 * {
@@ -12,17 +13,24 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 15px;
+
+  background-color: var(--text-color);
 }
 header h1 a {
   text-decoration: none;
   border-bottom: 3px solid;
   color: var(--text-color);
+
+  background-color: var(--mid-color);
 } 
 header ul {
   list-style: none;
@@ -31,7 +39,7 @@ header ul {
 }
 header ul li a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--mid-color);
 
   padding: 10px 15px;
 }
@@ -61,6 +69,19 @@ section .subtitle {
 section article {
   padding: 25px;
   width: 480px
+}
+
+#projects article {
+  flex-wrap: wrap;
+  flex-flow: row;
+  flex-direction: column;
+}
+#projects article div {
+  width: 50%;
+}
+#projects article div:first-child {
+  width: 100%;
+  font-size: 48px;
 }
 
 .contact article {
