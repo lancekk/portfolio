@@ -1,14 +1,29 @@
+:root {
+  --background-color: #ccc;
+  --text-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
 header {
   display: flex;
   justify-content: space-between;
 }
 header h1 a {
   text-decoration: none;
+  color: var(--text-color);
 } 
 header ul {
   list-style: none;
   display: flex;
   min-width: 30%;
+}
+header ul li a {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .contact {
@@ -23,4 +38,8 @@ header ul {
   display: flex;
   justify-content: space-between;
   width: 50%;
+}
+.contact article a {
+  text-decoration: none;
+  color: var(--text-color);
 }
