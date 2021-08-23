@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 a {
+  text-decoration: none;
+} 
+header ul {
+  list-style: none;
+  display: flex;
+  min-width: 30%;
+}
+
+
