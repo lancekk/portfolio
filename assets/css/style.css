@@ -87,19 +87,27 @@ section article {
 }
 
 #projects article {
-  flex-wrap: wrap;
-  flex-flow: row;
-  flex-direction: column;
+  flex-flow:wrap;
+  justify-content: space-between;
+  padding: 5px;
+  height: auto;
 }
-#projects article div {
-  width: 50%;
+.project {
+  min-width: 40%;
+  min-height: 96px;
 }
-#projects article div:first-child {
+.project img {
   width: 100%;
-  font-size: 48px;
+}
+.project:first-child {
+  width: 100%;
+  min-width: 100%;
 }
 .project:first-child img {
-  width: 320px;
+  width: 100%;
+}
+.project-description {
+  background-color: var(--mid-color);
 }
 
 .contact article {
