@@ -36,6 +36,18 @@ header ul li a {
   padding: 10px 15px;
 }
 
+.hero {
+  background-image: url("../images/headshot.jpg");
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  justify-content: center;
+
+  min-width: 400px;
+  max-width: 500px;
+  min-height: 400px;
+}
+
 .contact {
   display: flex;
   justify-content: space-between;
