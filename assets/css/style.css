@@ -65,7 +65,7 @@ header ul li a {
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px 128px;
 }
 section .subtitle {
@@ -76,7 +76,7 @@ section .subtitle {
 }
 section article {
   padding: 25px;
-  width: 480px;
+  width: 720px;
   display: flex;
 }
 
