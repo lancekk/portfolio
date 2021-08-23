@@ -21,27 +21,32 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  padding-bottom: 15px;
+  padding: 15px 0px 15px 0px;
 
   background-color: var(--text-color);
 }
+header h1 {
+  width: 250px;
+  text-align: right;
+  background-color: var(--mid-color);
+}
 header h1 a {
   text-decoration: none;
-  border-bottom: 3px solid;
   color: var(--text-color);
-
-  background-color: var(--mid-color);
 } 
 header ul {
   list-style: none;
   display: flex;
-  min-width: 30%;
+  justify-content: space-between;
+  min-width: 400px;
+  padding-right: 10px;
 }
 header ul li a {
   text-decoration: none;
   color: var(--mid-color);
-
   padding: 10px 15px;
+
+  border-bottom: 3px solid;
 }
 
 /* .hero {
@@ -67,16 +72,19 @@ header ul li a {
 section {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
-  width: 720px;
+  padding: 10px 128px;
+  /* width: 720px; */
 }
 section .subtitle {
   border-right: 3px solid;
   width: 128px;
+  text-align: right;
+  padding-right: 15px;
 }
 section article {
   padding: 25px;
-  width: 480px
+  width: 480px;
+  display: flex;
 }
 
 #projects article {
@@ -91,12 +99,17 @@ section article {
   width: 100%;
   font-size: 48px;
 }
+.project img {
+  width: 320px;
+}
 
 .contact article {
-  display: flex;
   justify-content: space-between;
 }
-.contact article a {
+.contact-info {
+  border-bottom: 3px solid;
+}
+.contact-info a {
   text-decoration: none;
   color: var(--text-color);
 }
