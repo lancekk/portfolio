@@ -44,7 +44,7 @@ header ul li a {
   padding: 10px 15px;
 }
 
-.hero {
+/* .hero {
   background-image: url("../images/headshot.jpg");
   background-size: cover;
   background-position: 80%;
@@ -54,6 +54,14 @@ header ul li a {
   min-width: 400px;
   max-width: 500px;
   min-height: 400px;
+} */
+.hero {
+  width: 100%;
+  justify-content: center;
+  background-color: var(--mid-color);
+}
+.hero img {
+  width: 320px;
 }
 
 section {
