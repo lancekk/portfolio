@@ -48,18 +48,24 @@ header ul li a {
   min-height: 400px;
 }
 
-.contact {
+section {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  padding: 10px 20px;
+  width: 720px;
 }
-.contact h2 {
-  width: 25%;
+section .subtitle {
+  border-right: 3px solid;
+  width: 128px;
 }
+section article {
+  padding: 25px;
+  width: 480px
+}
+
 .contact article {
   display: flex;
   justify-content: space-between;
-  width: 50%;
 }
 .contact article a {
   text-decoration: none;
