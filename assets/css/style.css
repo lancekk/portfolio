@@ -11,4 +11,16 @@ header ul {
   min-width: 30%;
 }
 
-
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.contact h2 {
+  width: 25%;
+}
+.contact article {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
