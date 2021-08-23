@@ -73,7 +73,6 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 10px 128px;
-  /* width: 720px; */
 }
 section .subtitle {
   border-right: 3px solid;
@@ -99,7 +98,7 @@ section article {
   width: 100%;
   font-size: 48px;
 }
-.project img {
+.project:first-child img {
   width: 320px;
 }
 
