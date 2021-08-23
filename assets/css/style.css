@@ -49,17 +49,6 @@ header ul li a {
   border-bottom: 3px solid;
 }
 
-/* .hero {
-  background-image: url("../images/headshot.jpg");
-  background-size: cover;
-  background-position: 80%;
-  display: flex;
-  justify-content: center;
-
-  min-width: 400px;
-  max-width: 500px;
-  min-height: 400px;
-} */
 .hero {
   width: 100%;
   justify-content: center;
@@ -67,6 +56,11 @@ header ul li a {
 }
 .hero img {
   width: 320px;
+}
+.hero div {
+  background-color: var(--background-color);
+  height: 32px;
+  display: absolute;
 }
 
 section {
