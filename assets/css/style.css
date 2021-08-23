@@ -59,7 +59,7 @@ header ul li a {
 }
 .hero div {
   background-color: var(--background-color);
-  height: 32px;
+  height: auto;
   display: absolute;
 }
 
@@ -113,4 +113,47 @@ section article {
 .contact-info a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+/* Smaller desktops and smaller */
+@media (max-width: 980px) {
+.contact article {
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.contact-info {
+  padding-top: 15px;
+}
+.contact-info:first-child {
+  padding-top: 0px;
+}
+}
+
+/* Tablets and smaller */
+@media (max-width: 768px) {
+header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+header h1 {
+  width: auto;
+}
+header ul {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+}
+
+/* Mobile phones and smaller */
+@media (max-width: 575px) {
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header ul li a {
+    padding: 0;
+  }
 }
